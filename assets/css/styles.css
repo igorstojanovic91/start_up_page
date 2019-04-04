@@ -197,6 +197,19 @@ section p {
     margin: 25px 0;
 }
 
+/* TESTIMONIALS SECTION */
+
+.testimonials .quote {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin: 40px 0 25px;
+}
+
+.testimonials .author {
+    font-style: italic;
+}
+
 /*ANIMATIONS */
 
 @keyframes fade {
