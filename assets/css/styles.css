@@ -232,6 +232,45 @@ section p {
     flex: 1; /* flex grow */
 }
 
+/* FOOTER SECTION */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #607d8b;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer ul {
+    display: flex;
+    flex-basis: 33%;
+    justify-content: center;
+}
+
+footer ul li {
+    margin-left: 16px;
+    margin-right: 10px;
+}
+
+footer p {
+    text-transform: uppercase;
+    font-size: 14px;
+    opacity: 0.6;
+    align-self: center;
+    justify-content: center;
+    text-align: center
+}
+
+footer p:nth-child(1) {
+    flex-basis: 33%
+}
+
+footer p:nth-child(2) {
+    flex-basis: 33%
+}
+
 /*ANIMATIONS */
 
 @keyframes fade {
